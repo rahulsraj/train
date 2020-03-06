@@ -1,5 +1,5 @@
 FROM ubuntu:trusty
-MAINTAINER Rahul <rraj@worldbankgroup.org>
+MAINTAINER Rahul <>
 
 ENTRYPOINT ["ping"]
 CMD ["-c","100","localhost"]
